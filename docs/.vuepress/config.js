@@ -32,12 +32,12 @@ module.exports = {
       },
       {
         "text": "番剧评析",
-        "link": "/docs/bangumi/",
+        "link": "/bangumi/",
         "icon": "reco-message"
       },
       {
         "text": "代码分享",
-        "link": "/docs/code/",
+        "link": "/code/",
         "icon": "reco-message"
       },
       {
@@ -46,15 +46,15 @@ module.exports = {
         "items": [
           {
             "text": "Linux",
-            "link": "/docs/xuexi/Linux/"
+            "link": "/xuexi/Linux/"
           },
           {
             "text": "Java",
-            "link": "/docs/xuexi/Java/"
+            "link": "/xuexi/Java/"
            },
            {
             "text": "数据库",
-            "link": "/docs/xuexi/shujuku/"
+            "link": "/xuexi/shujuku/"
            },
         ]
       },
@@ -64,7 +64,7 @@ module.exports = {
         "items": [
             {
                 "text": "电子书",
-                "link": "/docs/welfare/books/"
+                "link": "/welfare/books/"
             },
             
         ]
@@ -79,7 +79,7 @@ module.exports = {
       recordIP: true,    // 记录评论者的IP
     },
     "sidebar": {
-      "/docs/bangumi/": [
+      "/bangumi/": [
         {
           title: '好看就vans了',
           children: ['']
@@ -89,19 +89,19 @@ module.exports = {
           children:['prettydebby','86']
         }
        ],
-       "/docs/Linux/": [
+       "/Linux/": [
          ""
       ],
-      "/docs/xuexi/Linux/": [
+      "/xuexi/Linux/": [
         ""
       ],
-      "/docs/xuexi/Java/": [
+      "/xuexi/Java/": [
         {
           title: 'Java考证复习',
           children: ['']
         },
       ],
-      "/docs/xuexi/shujuku/": [
+      "/xuexi/shujuku/": [
         {
           title: '数据库学习技巧',
           children: ['']
@@ -111,7 +111,7 @@ module.exports = {
           children:['share']
         }
       ],
-      "/docs/welfare/books/": [
+      "/welfare/books/": [
         ""
       ],
     },
